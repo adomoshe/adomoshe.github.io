@@ -2,6 +2,82 @@ body{
 background-image: url("../images/concrete_seamless.png");
 }
 
+header {
+position: relative;
+height: 70px;
+width: 100%;
+background: #ffffff;
+border-bottom: 2px solid #cccccc;
+}
+
+#about, #portfolio, #contact {
+text-decoration: none;
+color: #cccccc;
+line-height: 70px;
+font-size: 18px;
+}
+
+#Ado{
+    height: 70px;
+    width: 200px;
+    background: #4aaaa5;
+    font-family: 'Georgia', Times, "Times New Roman", serif;
+    font-weight: bold;
+    font-size: 25px;
+    color: #ffffff;
+    float: left;
+    margin-left: 150px;
+    text-align: center;
+    line-height: 70px;
+}
+
+nav {
+    display: inline-flex;
+    float: right;
+    margin-right: 25px;
+}
+
+nav #about, #portfolio, #contact {
+    margin: 5px;
+}
+
+section { 
+    position: relative;
+    float: left;
+    height: auto;
+    width: 960px;
+    background: #ffffff;
+    border: 1px solid #dddddd;
+    padding: 20px;
+    margin-top: 40px;
+    margin-left: 100px;
+}
+
+hr{
+    color: solid #dddddd;
+    background-color: #dddddd;
+    border: 1px solid #dddddd;
+}
+
+#aboutme, #portfolio2, #contact2 {
+    color: #4aaaa5;
+    padding: 10px 0px;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+#adopic {
+    float: left;
+    padding: 10px 10px 0px 0px;
+}
+
+p{
+    padding: 10px;
+}
+
+a, form, p {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
 
 /* Teal color (used for headings and backgrounds): `#4aaaa5`
    * Regular font color (used for paragraphs and all text besides the headings): `#777777`
@@ -14,3 +90,6 @@ background-image: url("../images/concrete_seamless.png");
 2. Fonts:
    * For heading fonts use `font-family: 'Georgia', Times, Times New Roman, serif;`.
    * For all other fonts use `'Arial', 'Helvetica Neue', Helvetica, sans-serif;`. */
+
+   /* Dimensions:
+   * The entire content and the main section content area is `960px` wide. */
