@@ -12,7 +12,7 @@ border-bottom: 2px solid #cccccc;
 
 #about, #portfolio, #contact {
 text-decoration: none;
-color: #cccccc;
+color: #858585;
 line-height: 70px;
 font-size: 18px;
 }
@@ -26,7 +26,7 @@ font-size: 18px;
     font-size: 25px;
     color: #ffffff;
     float: left;
-    margin-left: 150px;
+    margin-left: 130px;
     text-align: center;
     line-height: 70px;
 }
@@ -34,11 +34,11 @@ font-size: 18px;
 nav {
     display: inline-flex;
     float: right;
-    margin-right: 25px;
+    margin-right: 145px;
 }
 
 nav #about, #portfolio, #contact {
-    margin: 5px;
+    margin: 0px 8px 0px 8px;
 }
 
 section { 
@@ -50,7 +50,7 @@ section {
     border: 1px solid #dddddd;
     padding: 20px;
     margin-top: 40px;
-    margin-left: 100px;
+    margin-left: 130px;
 }
 
 hr{
@@ -68,16 +68,72 @@ hr{
 
 #adopic {
     float: left;
-    padding: 10px 10px 0px 0px;
+    padding: 10px 20px 0px 0px;
 }
 
 p{
     padding: 10px;
+    line-height: 30px;
 }
 
 a, form, p {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #858585;
 }
+
+footer  {
+    height: 45px;
+    width: 100%;
+    background-color: #666666;
+    position: absolute;
+    bottom: 0px;
+}
+
+#footer2 {
+    height: 8px;
+    width: 100%;
+    background-color: #4aaaa5;
+
+}
+
+
+/* Contacts */
+
+#button1 {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 8px 16px 8px 16px;
+    margin: 8px 8px 0px 0px;
+    border: 1px solid #4aaaa5;
+}
+
+input {
+    height: 10px;
+    width: 97.5%;
+    font-size: 18px;
+    padding: 10px;
+    margin: 5px 0px 12px 0px;
+    float: left;
+}
+
+/* Portfolio */
+
+.portfolioteal {
+    float: left;
+    width: 30%;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    padding: 8px 16px 8px 16px;
+    margin: 20px 8px 50px 85px;
+    text-align: center;
+}
+
+#portfolio3 {
+    position: relative;
+}
+
 
 /* Teal color (used for headings and backgrounds): `#4aaaa5`
    * Regular font color (used for paragraphs and all text besides the headings): `#777777`
