@@ -114,6 +114,10 @@ input {
     float: left;
 }
 
+#message2 {
+    height: 160px;
+}
+
 /* Portfolio */
 
 .portfolioteal {
