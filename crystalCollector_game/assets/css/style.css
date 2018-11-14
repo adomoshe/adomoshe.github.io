@@ -1,0 +1,30 @@
+body{
+    background-image: url("../images/diamondBackground.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1, h4, p {
+    font-weight: bold;
+    color: #c7d9f5;
+}
+
+h4 {
+    font-size: 3rem;
+}
+
+p {
+    font-size: 1.7rem;
+}
+
+.diamonds {
+    margin-bottom: 6%;
+}
+
+h2, h3 {
+    color: rgb(44, 169, 253);
+}
+
+button {
+    margin: auto;
+}

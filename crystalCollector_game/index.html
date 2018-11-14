@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lan="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CrystalCollector Game</title>
+        <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="assets/javascript/game.js"></script>
+    </head>
+
+    <body>
+        <div class = "container-fluid">
+            <div class = "row">
+                <div class =  "col-xs-2">
+                    <img class = "diamonds" id = "diamondOne" src = "assets/images/crystal1.png" alt = "Crystal 1">
+                    
+                    <img class = "diamonds" id = "diamondTwo" src = "assets/images/crystal2.png" alt = "Crystal 2">
+                
+                    <img class = "diamonds" id = "diamondThree" src = "assets/images/crystal3.png" alt = "Crystal 3">
+                    
+                    <img class = "diamonds" id = "diamondFour" src = "assets/images/crystal4.png" alt = "Crystal 4">
+                </div>
+                <div class = "col-xs-8 text-center">
+                    <h3 id = "wins"></h3>
+                    <h3 id = "losses"></h3>
+                    <h3 id = "goalNumber"></h3>
+                    <h3 id = "playerNumber"></h3>
+                    <br>
+                    <h4 id = "winAlert">Congrats!</h4>
+                    <h4 id = "loseAlert">Oh No!</h4>
+                    <button type = "button" class = "btn btn-primary" id = "playAgain">Play Again?</button>
+                </div>
+                <div class = "col-xs-2">
+                    <h1>
+                        Welcome to Crystal Collector!
+                    </h1>
+                    <h3>
+                        Instructions:
+                    </h3>
+                    <p>
+                        When pressed, each crystal adds a random number between 1-19 to "Your Total". That crystal will always add the same number until the game is over.
+                        To win, the player must figure out how to add "Your Total" such that it equals the "Goal" number. If "Your Total" exceeds the "Goal" number then the player losses.
+                        Once the player either wins or losses, then a "Play Again?" button will appear. If pressed, "Goal" and the crystals generate new numbers while a tally of wins and losses is kept.
+                        Good luck!
+                    </p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
