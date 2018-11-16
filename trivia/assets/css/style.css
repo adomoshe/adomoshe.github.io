@@ -1,0 +1,25 @@
+body {
+    background-image: url("../images/question.jpg");
+}
+ 
+.btn {
+    margin: auto;
+    margin-bottom: 1rem;
+}
+
+.btn {
+    white-space: normal;
+}
+
+.navbar {
+    margin-bottom: 5rem;
+}
+
+#card_bg {
+    opacity: 0.94;
+}
+
+.card {
+    width: auto;
+    height: auto;
+}
